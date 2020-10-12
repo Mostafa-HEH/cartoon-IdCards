@@ -1,0 +1,458 @@
+body{
+	margin: 0;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*------------Header title------------*/
+
+#header{
+  display: fixed;
+	font-family: 'Piazzolla', serif;
+	color: #fff;
+	font-size: 2rem;
+  background-color: rgba(252, 177, 49, .6);
+  border-bottom: 2px solid black;
+  margin: auto;
+
+}
+
+.main__head{
+  margin: 0;
+}
+
+/*-------------container--------------*/
+#container{
+  padding-top: 20px;
+  background-color: rgba(0,0,9,.5);
+}
+
+.destination {
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 320px;
+	height: 420px;
+	margin: 15px;
+	border: 1px solid #aaa;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	transition: background-color 400ms ease-out;
+}
+
+
+.thumbnail {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.content {
+  text-align: left;
+  margin: auto 20px;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+/*------------->*/
+.BugsBunny:hover,
+.BugsBunny:active {
+  background-color: #000;
+  color: white;
+}
+
+.BugsBunny{
+	background-color: #778184;
+}
+
+/*------------->*/
+.buttercup:hover,
+.buttercup:active {
+  background-color: #000;
+  color: white;
+}
+
+.buttercup{
+	background-color: #89ca7b;
+}
+/*------------->*/
+.Carlo:hover,
+.Carlo:active {
+  background-color: #e2a00b;
+  color: white;
+}
+
+.Carlo{
+	background-color: #bad8ce;
+}
+/*------------->*/
+.Courage:hover,
+.Courage:active {
+  background-color: #ac6c34;
+  color: white;
+}
+
+.Courage{
+	background-color: #e9bdda;
+}
+/*------------->*/
+.Donald:hover,
+.Donald:active {
+  background-color: #ffc23f;
+  color: white;
+}
+
+.Donald{
+	background-color: #297fb7;
+}
+/*------------->*/
+.Droopy:hover,
+.Droopy:active {
+  background-color: #473721;
+  color: white;
+}
+
+.Droopy{
+	background-color: #ff9802;
+}
+/*------------->*/
+.felix:hover,
+.felix:active {
+  background-color: #000;
+  color: white;
+}
+
+.felix{
+	background-color: #da251d;
+}
+/*------------->*/
+/*.Kevin-Minion:hover,
+.Kevin-Minion:active {
+  background-color: ##000000;
+  color: white;
+}
+.Kevin-Minion{
+	background-color: #f3c149;
+}*/
+/*------------->*/
+.mickeymouse:hover,
+.mickeymouse:active {
+  background-color: #fd160f;
+  color: white;
+}
+.mickeymouse{
+	background-color: #f7c012;
+}
+/*------------->*/
+.Papa_Smurf:hover,
+.Papa_Smurf:active {
+  background-color: #000;
+  color: white;
+}
+.Papa_Smurf{
+	background-color: #55a8ff;
+}
+/*------------->*/
+.Perry:hover,
+.Perry:active {
+  background-color: #fd9e60;
+  color: white;
+}
+.Perry{
+	background-color: #19a5a0;
+}
+/*------------->*/
+.Pluto:hover,
+.Pluto:active {
+  background-color: #fecf49;
+  color: white;
+}
+.Pluto{
+	background-color: #e7937e;
+}
+/*------------->*/
+.popeye:hover,
+.popeye:active {
+  background-color: #000;
+  color: white;
+}
+.popeye{
+	background-color: #00b1ed;
+}
+/*------------->*/
+.spongbob:hover,
+.spongbob:active {
+  background-color: #b36e29;
+  color: white;
+}
+.spongbob{
+	background-color: #fff463;
+}
+/*------------->*/
+.Sylvester:hover,
+.Sylvester:active {
+  background-color: #000;
+  color: white;
+}
+.Sylvester{
+	background-color: #c90409;
+}
+/*------------->*/
+.Taz:hover,
+.Taz:active {
+  background-color: #a81c42;
+  color: white;
+}
+.Taz{
+	background-color: #835707;
+}
+/*------------->*/
+.tom_and_jerry:hover,
+.tom_and_jerry:active {
+  background-color: #f8beaa;
+  color: white;
+}
+.tom_and_jerry{
+	background-color: #d19912;
+}
+/*------------->*/
+.Winnie-the-Pooh:hover,
+.Winnie-the-Pooh:active {
+  background-color: #000;
+  color: white;
+}
+.Winnie-the-Pooh{
+	background-color: #efc91a;
+}
+/*------------->*/
+.Tweety:hover,
+.Tweety:active {
+  background-color: #fcb131;
+  color: white;
+}
+.Tweety{
+	background-color: #c29609;
+}
+/*------------->*/
+.Daffy_Duck:hover,
+.Daffy_Duck:active {
+  background-color: #000;
+  color: white;
+}
+.Daffy_Duck{
+	background-color: #f6a800;
+}
+/*------------->*/
+.Yosemite-Sam:hover,
+.Yosemite-Sam:active {
+  background-color: #ffd298;
+  color: white;
+}
+.Yosemite-Sam{
+	background-color: #fb4e31;
+}
+/*------------->*/
+.ElmerFudd:hover,
+.ElmerFudd:active {
+  background-color: #a8b1b7;
+  color: white;
+}
+.ElmerFudd{
+	background-color: #cf7518;
+}
+/*------------->*/
+.betty-boop:hover,
+.betty-boop:active {
+  background-color: #000;
+  color: white;
+}
+.betty-boop{
+	background-color: #fb4e31;
+}
+/*------------->*/
+.Fred-Flintstone:hover,
+.Fred-Flintstone:active {
+  background-color: #009eb8;
+  color: white;
+}
+.Fred-Flintstone{
+	background-color: #ff8000;
+}
+/*------------->*/
+.Patrick-Star:hover,
+.Patrick-Star:active {
+  background-color: #d5de23;
+  color: white;
+}
+.Patrick-Star{
+	background-color: #f6a4a7;
+}
+/*------------->*/
+.FoghornLeghorn:hover,
+.FoghornLeghorn:active {
+  background-color: #aa130d;
+  color: white;
+}
+.FoghornLeghorn{
+	background-color: #ffb301;
+}
+/*------------->*/
+.WoodyWoodpecker:hover,
+.WoodyWoodpecker:active {
+  background-color: #fdbb41;
+  color: white;
+}
+.WoodyWoodpecker{
+	background-color: #005d93;
+}
+/*------------->*/
+.BarneyRubble:hover,
+.BarneyRubble:active {
+  background-color: #ffe136;
+  color: white;
+}
+.BarneyRubble{
+	background-color: #b48257;
+}
+/*------------->*/
+.Snoopy:hover,
+.Snoopy:active {
+  background-color: #000;
+  color: white;
+}
+.Snoopy{
+	background-color: grey;
+}
+/*------------->*/
+.MinnieMouse:hover,
+.MinnieMouse:active {
+  background-color: #fdd5b2;
+  color: white;
+}
+.MinnieMouse{
+	background-color: #fe0000;
+}
+/*------------->*/
+.Marvin:hover,
+.Marvin:active {
+  background-color: #000;
+  color: white;
+}
+.Marvin{
+	background-color: #289901;
+}
+/*------------->*/
+.Shaggy_Rogers:hover,
+.Shaggy_Rogers:active {
+  background-color: #f1c885;
+  color: white;
+}
+.Shaggy_Rogers{
+	background-color: #b8bf19;
+}
+/*------------->*/
+.OliveOyl:hover,
+.OliveOyl:active {
+  background-color: #f8192b;
+  color: white;
+}
+.OliveOyl{
+	background-color: #fff;
+}
+/*------------->*/
+.Goofy:hover,
+.Goofy:active {
+  background-color: #f48341;
+  color: white;
+}
+.Goofy{
+	background-color: #276ca3;
+}
+/*------------->*/
+.PepeLePew:hover,
+.PepeLePew:active {
+  background-color: #000;
+  color: white;
+}
+.PepeLePew{
+	background-color: #b70100;
+}
+/*------------->*/
+.Tigger:hover,
+.Tigger:active {
+  background-color: #fad242;
+  color: white;
+}
+.Tigger{
+	background-color: #f79329;
+}
+/*------------->*/
+.Sandy:hover,
+.Sandy:active {
+  background-color: #e06ba6;
+  color: white;
+}
+.Sandy{
+	background-color: #d9a375;
+}
+/*------------->*/
+.Mr_Krabs:hover,
+.Mr_Krabs:active {
+  background-color: #006AB4;
+  color: white;
+}
+.Mr_Krabs{
+	background-color: #e30038;
+}
+/*------------->*/
+.SpeedyGonzales:hover,
+.SpeedyGonzales:active {
+  background-color: #d18416;
+  color: white;
+}
+.SpeedyGonzales{
+	background-color: #FFD204;
+}
+/*------------->*/
+.Ariel:hover,
+.Ariel:active {
+  background-color: #cc1f2d;
+  color: white;
+}
+.Ariel{
+	background-color: #01aea7;
+}
+/*------------->*/
+.WileE_Coyote:hover,
+.WileE_Coyote:active {
+  background-color: #856d3a;
+  color: white;
+}
+.WileE_Coyote{
+	background-color: #e8d4b2;
+}
+
+footer{
+  font-family: 'Piazzolla', serif;
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  border-top: 2px solid black;
+  margin-bottom: 0;
+}
+
+#footer{
+  margin-bottom: 0;
+  margin-top: auto;
+
+}
